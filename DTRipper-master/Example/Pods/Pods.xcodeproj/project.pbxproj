@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11ECE9F12D43AEDEB00782C0172678F1 /* Pods-DTRipper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD3AD99017EDEAC2C7B9B8DE489C691 /* Pods-DTRipper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1311BDB4D72C5AB25A0ED8FBDDC93091 /* Pods-DTRipper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F70F94069F3739F382816C77AEEAEAA /* Pods-DTRipper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160E73CFA14B9F5D2D1267949FB02072 /* NSError+DTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 278C9C2CD92591E2300EBA1D12A45F77 /* NSError+DTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD5863503EA774757E826AC4AF5C72B /* UITabBarController+DTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2667443AFEDE9ECFD5D8792539DA95C /* UITabBarController+DTRouter.m */; };
+		23ECF8AE93FB4C6B25C1F77678D97E88 /* NSError+DTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F9E68972A8976BE31209E7CECBDD4 /* NSError+DTRouter.m */; };
+		3698E9433903C29F5EBCC048A46871B8 /* UIViewController+DTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D74078B5503149BEC44ED986DC4413BF /* UIViewController+DTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C294B5AEFF123B4B680DCAAD8184DE /* UINavigationController+DTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EE6D5EC0A93FACD43DDAE72E55568F /* UINavigationController+DTRouter.m */; };
+		3C192C16B80873EEE178632E7C3EC2DB /* DTURLPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2CE6D2ABF2C71CDBD7C312B250FD1F /* DTURLPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C96937DA5FBE1640E2EE04FD64B22FB /* DTRipper.m in Sources */ = {isa = PBXBuildFile; fileRef = E14FD861741F062030FB9D09F53EC519 /* DTRipper.m */; };
+		3E6AFFD70C4AB9785AAE4EF527F2551C /* UITabBarController+DTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F85E3AB4576BC73748137621CDCAA79 /* UITabBarController+DTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4027FCEE512508FC97CABA3A92176C13 /* DTRouterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4671D5FE5513EC3BA0FE36785C8F0257 /* DTRouterRequest.m */; };
+		415AE68D647F2AFF574E5314469A3568 /* DTRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5110A72D329038456EBD8CC5F51FA947 /* DTRouter-dummy.m */; };
+		42C49048E12E1F26F459E4BB714412E8 /* Pods-DTRipper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D5A6C9AA097E932D60EF2A3A318F8A /* Pods-DTRipper_Example-dummy.m */; };
+		45C937AA931BE8F5C1F4FBD4F48FB2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9AB088C1BABCC1E9E468E078427FD7 /* Foundation.framework */; };
+		4FB24DBB634D8A70D5000E04B4FDD07D /* DTModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEA0F20D85D618D9EAACAF1FCF06FBB /* DTModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55871ED5CEFA02CB075237CF60EAEB0D /* DTRipper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80872DD6470465C2D201554BDCEE94A1 /* DTRipper-dummy.m */; };
+		5B687F9CC6F40BED0C3F37EDCBF50064 /* DTRipper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EB1F881A9AC2192CF8F58FF54903E6 /* DTRipper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D351E0649BD067778C77D2BCAC5E69B /* DTRipperContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CC3FE251B56CD165A55193CBB95D4A /* DTRipperContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E51D63BBEA4925C9E9DBC4799A215D /* DTRouterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C81671F65EB235C7C260C824F7073 /* DTRouterResponse.m */; };
+		7BA0735A26763E6B0B3FD2318E59D932 /* DTRipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD000F121D7B1FCB7B460EC44E44592 /* DTRipper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8074E0441A434B07F30B56280E80CE49 /* DTRouterResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D74A440D183221DBD909B7167F9ED2A /* DTRouterResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A5F6D7B4BE3833102AC6ED9004C106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9AB088C1BABCC1E9E468E078427FD7 /* Foundation.framework */; };
+		8DBA20508531F3941FE15A36C91C0EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9AB088C1BABCC1E9E468E078427FD7 /* Foundation.framework */; };
+		948E2558C03B893A8A6B76C8AEE47A67 /* Pods-DTRipper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D86DB5991E77414C7B0F73E00A9785D /* Pods-DTRipper_Tests-dummy.m */; };
+		96FA574DCC7CE18155C42C36CD3B2BAD /* DTRouterService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5550B86D9A0ACCD2B3A65ED68BADB00B /* DTRouterService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F8C265C14AEA3AA4D032759E01ED8E /* DTModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29976A741756BC836476382079D8521C /* DTModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2E4BBB2D7CC8F51DC81EDB44BF19B1 /* DTRipperContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C3E60784D2440FE668F6B651931521 /* DTRipperContext.m */; };
+		A1FB9E20E6AD2BF005677E298A145F16 /* UINavigationController+DTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D60C454021FD5A6871996FD981520F84 /* UINavigationController+DTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8FA546DF1B4B461BBD8D8F5402ABA1E /* DTRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE2B5D8D9F6848514630405333F7500 /* DTRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96EA201B03D32BCD54315DB1C931CC1 /* DTRipperAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CA437EAC9C6E7CC8513333AACF8491 /* DTRipperAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF959E267AE3C761AE754D0ED58D2E2B /* UIViewController+DTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E567AC140AEB7A3CE3B6A4600F91A7 /* UIViewController+DTRouter.m */; };
+		BBCE9FEB6616DE67D6453A5AFDB21F8D /* DTRipperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB2F70E608CFFE53277D1550CD61BA /* DTRipperAppDelegate.m */; };
+		BE1D3FA40EE2D9A8C6E438BF9289894B /* DTRouterRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E891CFCFF162A975E3A522C90BC5FA3 /* DTRouterRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1112404A0674C13EAE4197FA948B42B /* UIApplication+DTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90B060B58EBD80C54D6B77C546C1E0 /* UIApplication+DTRouter.m */; };
+		D29008DEC8A395338CECBDB08EFDADB0 /* DTRipperConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1614619C0133E2A33EE2F8CE061B4F07 /* DTRipperConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6BAF743D78B2F71F9D20C2CFC30561 /* UIApplication+DTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D808ED98376123452885FA66D65E3BB3 /* UIApplication+DTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E333D9B361A0CBA76CE2BE536257B4A5 /* DTURLPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 1645C78CAFF75646E3DAC4EC160EC04B /* DTURLPattern.m */; };
+		E82E16E3FD75AA9FFABF3BCB83E16D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9AB088C1BABCC1E9E468E078427FD7 /* Foundation.framework */; };
+		F39F14F266EA4737A88A783496D435D4 /* DTModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73468D82875208F69C87FCC3EC1B36B5 /* DTModuleManager.m */; };
+		F7C70C578C0ADD887C4FE5615AE7A08F /* DTRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37343D0E6F3176B4C159D2CA55489362 /* DTRouter.framework */; };
+		FDCF86BF6B17A4D630D10A71267822EB /* DTRouterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB33962CD82DA430438874B530B4853 /* DTRouterService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21AEB1E42458D899C731CC8908F65855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACE65D9B086D50C8C7008C225512E08;
+			remoteInfo = "Pods-DTRipper_Example";
+		};
+		774FB043EC7F6B628DA5D8C5139A3978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BF8324021C29F5F287C6F529E9CED4;
+			remoteInfo = DTRipper;
+		};
+		DA2D793540A46D6B8D99E90E9F038A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A309D5E0965903CB4CA1C93F1B3C923;
+			remoteInfo = DTRouter;
+		};
+		F16350F503C0A6E5AAFC5930F6C55393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A309D5E0965903CB4CA1C93F1B3C923;
+			remoteInfo = DTRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD76C600F79C935DE19AA06CB72472E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0E891CFCFF162A975E3A522C90BC5FA3 /* DTRouterRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRouterRequest.h; path = DTRouter/Classes/Core/DTRouterRequest.h; sourceTree = "<group>"; };
+		14135797AE6FCE60D75FAA47422C193C /* Pods-DTRipper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTRipper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1614619C0133E2A33EE2F8CE061B4F07 /* DTRipperConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRipperConstants.h; path = DTRipper/Classes/DTRipperConstants.h; sourceTree = "<group>"; };
+		1645C78CAFF75646E3DAC4EC160EC04B /* DTURLPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTURLPattern.m; path = DTRouter/Classes/Core/DTURLPattern.m; sourceTree = "<group>"; };
+		1AE2B5D8D9F6848514630405333F7500 /* DTRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTRouter-umbrella.h"; sourceTree = "<group>"; };
+		1AFC5E6D4EC1AC88D98AF5F09D874529 /* DTRipper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTRipper.xcconfig; sourceTree = "<group>"; };
+		1BB7F52C2D45385F801643BD783C1555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DEA0F20D85D618D9EAACAF1FCF06FBB /* DTModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTModuleProtocol.h; path = DTRipper/Classes/DTModuleProtocol.h; sourceTree = "<group>"; };
+		1EB33962CD82DA430438874B530B4853 /* DTRouterService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRouterService.m; path = DTRouter/Classes/Core/DTRouterService.m; sourceTree = "<group>"; };
+		1EEC49BDE5A9E3EF3B2A5FFEF5BE2AE3 /* DTRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTRouter-prefix.pch"; sourceTree = "<group>"; };
+		20B11B212045C74D2A7630AFBC5C5554 /* Pods-DTRipper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTRipper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22A38BD0AA682C8C0B85A122828A2266 /* DTRipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTRipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F95A0D508E6A96E5C3CC2E4D32BA54 /* Pods-DTRipper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTRipper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		26E567AC140AEB7A3CE3B6A4600F91A7 /* UIViewController+DTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DTRouter.m"; path = "DTRouter/Classes/UIKitExtentsion/UIViewController+DTRouter.m"; sourceTree = "<group>"; };
+		278C9C2CD92591E2300EBA1D12A45F77 /* NSError+DTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+DTRouter.h"; path = "DTRouter/Classes/Core/NSError+DTRouter.h"; sourceTree = "<group>"; };
+		28D5A6C9AA097E932D60EF2A3A318F8A /* Pods-DTRipper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTRipper_Example-dummy.m"; sourceTree = "<group>"; };
+		29976A741756BC836476382079D8521C /* DTModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTModuleManager.h; path = DTRipper/Classes/DTModuleManager.h; sourceTree = "<group>"; };
+		3070F30E98786D958C5068F8845061EA /* Pods-DTRipper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTRipper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		37343D0E6F3176B4C159D2CA55489362 /* DTRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386BDE720C6191AC09A2B433390C770E /* Pods-DTRipper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTRipper_Tests-resources.sh"; sourceTree = "<group>"; };
+		391FBFBE19463C349E9A8B66ED2442B6 /* Pods-DTRipper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTRipper_Example.modulemap"; sourceTree = "<group>"; };
+		3A90B060B58EBD80C54D6B77C546C1E0 /* UIApplication+DTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+DTRouter.m"; path = "DTRouter/Classes/UIKitExtentsion/UIApplication+DTRouter.m"; sourceTree = "<group>"; };
+		3C2CE6D2ABF2C71CDBD7C312B250FD1F /* DTURLPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTURLPattern.h; path = DTRouter/Classes/Core/DTURLPattern.h; sourceTree = "<group>"; };
+		3ECB2F70E608CFFE53277D1550CD61BA /* DTRipperAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRipperAppDelegate.m; path = DTRipper/Classes/DTRipperAppDelegate.m; sourceTree = "<group>"; };
+		3F32F94C8AC018D89BF4D99E48828182 /* Pods-DTRipper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTRipper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		43CA437EAC9C6E7CC8513333AACF8491 /* DTRipperAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRipperAppDelegate.h; path = DTRipper/Classes/DTRipperAppDelegate.h; sourceTree = "<group>"; };
+		4671D5FE5513EC3BA0FE36785C8F0257 /* DTRouterRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRouterRequest.m; path = DTRouter/Classes/Core/DTRouterRequest.m; sourceTree = "<group>"; };
+		475D37D575228227C702E7E5C81E1610 /* DTRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498B0B189451DA73EA44CDCA289691FB /* Pods-DTRipper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTRipper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BD000F121D7B1FCB7B460EC44E44592 /* DTRipper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRipper.h; path = DTRipper/Classes/DTRipper.h; sourceTree = "<group>"; };
+		4F85E3AB4576BC73748137621CDCAA79 /* UITabBarController+DTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+DTRouter.h"; path = "DTRouter/Classes/UIKitExtentsion/UITabBarController+DTRouter.h"; sourceTree = "<group>"; };
+		5110A72D329038456EBD8CC5F51FA947 /* DTRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTRouter-dummy.m"; sourceTree = "<group>"; };
+		5550B86D9A0ACCD2B3A65ED68BADB00B /* DTRouterService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRouterService.h; path = DTRouter/Classes/Core/DTRouterService.h; sourceTree = "<group>"; };
+		58AFF40D3A6B4A2AD93D429C5203B0A9 /* DTRipper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DTRipper.podspec; sourceTree = "<group>"; };
+		6A963EA0693E16DC9AD45EFE20C2501C /* DTRipper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTRipper-prefix.pch"; sourceTree = "<group>"; };
+		6F70F94069F3739F382816C77AEEAEAA /* Pods-DTRipper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTRipper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7268F37253B30030873C30D0D0539ADC /* Pods_DTRipper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTRipper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73468D82875208F69C87FCC3EC1B36B5 /* DTModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTModuleManager.m; path = DTRipper/Classes/DTModuleManager.m; sourceTree = "<group>"; };
+		7B62A3FEC314402C57F3A6397266DDB2 /* DTRipper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTRipper.modulemap; sourceTree = "<group>"; };
+		7D86DB5991E77414C7B0F73E00A9785D /* Pods-DTRipper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTRipper_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E6A00111ACDA4F661606FEB5237AD59 /* Pods-DTRipper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTRipper_Tests.modulemap"; sourceTree = "<group>"; };
+		80872DD6470465C2D201554BDCEE94A1 /* DTRipper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTRipper-dummy.m"; sourceTree = "<group>"; };
+		83E4B9AD664E8FA32CA30B8A10BDE311 /* Pods-DTRipper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTRipper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99EB1F881A9AC2192CF8F58FF54903E6 /* DTRipper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTRipper-umbrella.h"; sourceTree = "<group>"; };
+		9A9AB088C1BABCC1E9E468E078427FD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D74A440D183221DBD909B7167F9ED2A /* DTRouterResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRouterResponse.h; path = DTRouter/Classes/Core/DTRouterResponse.h; sourceTree = "<group>"; };
+		A14E61776C718DC49B2931B380AFE404 /* Pods-DTRipper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTRipper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3C3E60784D2440FE668F6B651931521 /* DTRipperContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRipperContext.m; path = DTRipper/Classes/DTRipperContext.m; sourceTree = "<group>"; };
+		A6341B77BF8B7E4D361C791D62D40E08 /* Pods-DTRipper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTRipper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6CC3FE251B56CD165A55193CBB95D4A /* DTRipperContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRipperContext.h; path = DTRipper/Classes/DTRipperContext.h; sourceTree = "<group>"; };
+		AC9F9E68972A8976BE31209E7CECBDD4 /* NSError+DTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+DTRouter.m"; path = "DTRouter/Classes/Core/NSError+DTRouter.m"; sourceTree = "<group>"; };
+		ACF851D4DA9EEB6C3C359DFA6DC2DE26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0429428F1E73AB9E4BBA272C8BDA30 /* Pods_DTRipper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTRipper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD3AD99017EDEAC2C7B9B8DE489C691 /* Pods-DTRipper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTRipper_Example-umbrella.h"; sourceTree = "<group>"; };
+		B02AEA5AA3AA9B376A653A280F5F1EB3 /* Pods-DTRipper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTRipper_Example-resources.sh"; sourceTree = "<group>"; };
+		B1EE6D5EC0A93FACD43DDAE72E55568F /* UINavigationController+DTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+DTRouter.m"; path = "DTRouter/Classes/UIKitExtentsion/UINavigationController+DTRouter.m"; sourceTree = "<group>"; };
+		C761840DCFDDE8EC16AF780F1615A63A /* Pods-DTRipper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTRipper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB96CAAE8835E8B0C94805AA98B6F563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2667443AFEDE9ECFD5D8792539DA95C /* UITabBarController+DTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+DTRouter.m"; path = "DTRouter/Classes/UIKitExtentsion/UITabBarController+DTRouter.m"; sourceTree = "<group>"; };
+		D60C454021FD5A6871996FD981520F84 /* UINavigationController+DTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+DTRouter.h"; path = "DTRouter/Classes/UIKitExtentsion/UINavigationController+DTRouter.h"; sourceTree = "<group>"; };
+		D74078B5503149BEC44ED986DC4413BF /* UIViewController+DTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DTRouter.h"; path = "DTRouter/Classes/UIKitExtentsion/UIViewController+DTRouter.h"; sourceTree = "<group>"; };
+		D7EE907B9658A77F59E4304F5FECD117 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D808ED98376123452885FA66D65E3BB3 /* UIApplication+DTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+DTRouter.h"; path = "DTRouter/Classes/UIKitExtentsion/UIApplication+DTRouter.h"; sourceTree = "<group>"; };
+		DD3F431C64B8266BDDE6E7CA9D21BAA7 /* DTRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTRouter.modulemap; sourceTree = "<group>"; };
+		E0093E24245D11181411CD80F262F5F8 /* DTRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTRouter.xcconfig; sourceTree = "<group>"; };
+		E14FD861741F062030FB9D09F53EC519 /* DTRipper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRipper.m; path = DTRipper/Classes/DTRipper.m; sourceTree = "<group>"; };
+		F57C81671F65EB235C7C260C824F7073 /* DTRouterResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRouterResponse.m; path = DTRouter/Classes/Core/DTRouterResponse.m; sourceTree = "<group>"; };
+		FE7F27DCE4C3DA49158351A67F3E853F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D357F67C7AFB1B7CA6B54048026B5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C937AA931BE8F5C1F4FBD4F48FB2B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D38382FE66A9FF97493471F92EDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBA20508531F3941FE15A36C91C0EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2C8968D7B44FF68BA5636696AD46B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A5F6D7B4BE3833102AC6ED9004C106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08F8227B44DA2BE12496E8DE80D254D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C70C578C0ADD887C4FE5615AE7A08F /* DTRouter.framework in Frameworks */,
+				E82E16E3FD75AA9FFABF3BCB83E16D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4268A16A61DA3BD8186C1FC8F3F75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A38BD0AA682C8C0B85A122828A2266 /* DTRipper.framework */,
+				475D37D575228227C702E7E5C81E1610 /* DTRouter.framework */,
+				7268F37253B30030873C30D0D0539ADC /* Pods_DTRipper_Example.framework */,
+				AD0429428F1E73AB9E4BBA272C8BDA30 /* Pods_DTRipper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A52B05DB4208BA930ABDE6653A865A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37343D0E6F3176B4C159D2CA55489362 /* DTRouter.framework */,
+				353867E61AEB7421FB62FE55E5FF93EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B9773D59C394BE2DE140DB529E8B3E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				777C094D653A184D4784272E3EC53C75 /* Pods-DTRipper_Example */,
+				6D75AF8E6168F3863B0652CC374568A6 /* Pods-DTRipper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22A94F5A331665E2974DA9EB35110132 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58AFF40D3A6B4A2AD93D429C5203B0A9 /* DTRipper.podspec */,
+				1BB7F52C2D45385F801643BD783C1555 /* LICENSE */,
+				0CD76C600F79C935DE19AA06CB72472E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3194233EC675BC1ADF5C4B875600054E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B62A3FEC314402C57F3A6397266DDB2 /* DTRipper.modulemap */,
+				1AFC5E6D4EC1AC88D98AF5F09D874529 /* DTRipper.xcconfig */,
+				80872DD6470465C2D201554BDCEE94A1 /* DTRipper-dummy.m */,
+				6A963EA0693E16DC9AD45EFE20C2501C /* DTRipper-prefix.pch */,
+				99EB1F881A9AC2192CF8F58FF54903E6 /* DTRipper-umbrella.h */,
+				ACF851D4DA9EEB6C3C359DFA6DC2DE26 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTRipper";
+			sourceTree = "<group>";
+		};
+		353867E61AEB7421FB62FE55E5FF93EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9A9AB088C1BABCC1E9E468E078427FD7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4EE789D215C0CC0C00F9181FB6F544FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0E891CFCFF162A975E3A522C90BC5FA3 /* DTRouterRequest.h */,
+				4671D5FE5513EC3BA0FE36785C8F0257 /* DTRouterRequest.m */,
+				9D74A440D183221DBD909B7167F9ED2A /* DTRouterResponse.h */,
+				F57C81671F65EB235C7C260C824F7073 /* DTRouterResponse.m */,
+				5550B86D9A0ACCD2B3A65ED68BADB00B /* DTRouterService.h */,
+				1EB33962CD82DA430438874B530B4853 /* DTRouterService.m */,
+				3C2CE6D2ABF2C71CDBD7C312B250FD1F /* DTURLPattern.h */,
+				1645C78CAFF75646E3DAC4EC160EC04B /* DTURLPattern.m */,
+				278C9C2CD92591E2300EBA1D12A45F77 /* NSError+DTRouter.h */,
+				AC9F9E68972A8976BE31209E7CECBDD4 /* NSError+DTRouter.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		598D7E3946DFC7B9099519E8FCBE11B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3F431C64B8266BDDE6E7CA9D21BAA7 /* DTRouter.modulemap */,
+				E0093E24245D11181411CD80F262F5F8 /* DTRouter.xcconfig */,
+				5110A72D329038456EBD8CC5F51FA947 /* DTRouter-dummy.m */,
+				1EEC49BDE5A9E3EF3B2A5FFEF5BE2AE3 /* DTRouter-prefix.pch */,
+				1AE2B5D8D9F6848514630405333F7500 /* DTRouter-umbrella.h */,
+				CB96CAAE8835E8B0C94805AA98B6F563 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTRouter";
+			sourceTree = "<group>";
+		};
+		5DDE89D6F76E48A0E4DD156D9A57C302 /* DTRipper */ = {
+			isa = PBXGroup;
+			children = (
+				29976A741756BC836476382079D8521C /* DTModuleManager.h */,
+				73468D82875208F69C87FCC3EC1B36B5 /* DTModuleManager.m */,
+				1DEA0F20D85D618D9EAACAF1FCF06FBB /* DTModuleProtocol.h */,
+				4BD000F121D7B1FCB7B460EC44E44592 /* DTRipper.h */,
+				E14FD861741F062030FB9D09F53EC519 /* DTRipper.m */,
+				43CA437EAC9C6E7CC8513333AACF8491 /* DTRipperAppDelegate.h */,
+				3ECB2F70E608CFFE53277D1550CD61BA /* DTRipperAppDelegate.m */,
+				1614619C0133E2A33EE2F8CE061B4F07 /* DTRipperConstants.h */,
+				A6CC3FE251B56CD165A55193CBB95D4A /* DTRipperContext.h */,
+				A3C3E60784D2440FE668F6B651931521 /* DTRipperContext.m */,
+				22A94F5A331665E2974DA9EB35110132 /* Pod */,
+				3194233EC675BC1ADF5C4B875600054E /* Support Files */,
+			);
+			name = DTRipper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68FBF81FAF086A679C0778EE8041E64E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE89D6F76E48A0E4DD156D9A57C302 /* DTRipper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D75AF8E6168F3863B0652CC374568A6 /* Pods-DTRipper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7EE907B9658A77F59E4304F5FECD117 /* Info.plist */,
+				7E6A00111ACDA4F661606FEB5237AD59 /* Pods-DTRipper_Tests.modulemap */,
+				498B0B189451DA73EA44CDCA289691FB /* Pods-DTRipper_Tests-acknowledgements.markdown */,
+				A6341B77BF8B7E4D361C791D62D40E08 /* Pods-DTRipper_Tests-acknowledgements.plist */,
+				7D86DB5991E77414C7B0F73E00A9785D /* Pods-DTRipper_Tests-dummy.m */,
+				14135797AE6FCE60D75FAA47422C193C /* Pods-DTRipper_Tests-frameworks.sh */,
+				386BDE720C6191AC09A2B433390C770E /* Pods-DTRipper_Tests-resources.sh */,
+				6F70F94069F3739F382816C77AEEAEAA /* Pods-DTRipper_Tests-umbrella.h */,
+				3070F30E98786D958C5068F8845061EA /* Pods-DTRipper_Tests.debug.xcconfig */,
+				20B11B212045C74D2A7630AFBC5C5554 /* Pods-DTRipper_Tests.release.xcconfig */,
+			);
+			name = "Pods-DTRipper_Tests";
+			path = "Target Support Files/Pods-DTRipper_Tests";
+			sourceTree = "<group>";
+		};
+		777C094D653A184D4784272E3EC53C75 /* Pods-DTRipper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F27DCE4C3DA49158351A67F3E853F /* Info.plist */,
+				391FBFBE19463C349E9A8B66ED2442B6 /* Pods-DTRipper_Example.modulemap */,
+				C761840DCFDDE8EC16AF780F1615A63A /* Pods-DTRipper_Example-acknowledgements.markdown */,
+				A14E61776C718DC49B2931B380AFE404 /* Pods-DTRipper_Example-acknowledgements.plist */,
+				28D5A6C9AA097E932D60EF2A3A318F8A /* Pods-DTRipper_Example-dummy.m */,
+				22F95A0D508E6A96E5C3CC2E4D32BA54 /* Pods-DTRipper_Example-frameworks.sh */,
+				B02AEA5AA3AA9B376A653A280F5F1EB3 /* Pods-DTRipper_Example-resources.sh */,
+				ADD3AD99017EDEAC2C7B9B8DE489C691 /* Pods-DTRipper_Example-umbrella.h */,
+				83E4B9AD664E8FA32CA30B8A10BDE311 /* Pods-DTRipper_Example.debug.xcconfig */,
+				3F32F94C8AC018D89BF4D99E48828182 /* Pods-DTRipper_Example.release.xcconfig */,
+			);
+			name = "Pods-DTRipper_Example";
+			path = "Target Support Files/Pods-DTRipper_Example";
+			sourceTree = "<group>";
+		};
+		7CB6425BA78CF6221CE5F36AE198D03E /* DTRouter */ = {
+			isa = PBXGroup;
+			children = (
+				4EE789D215C0CC0C00F9181FB6F544FA /* Core */,
+				598D7E3946DFC7B9099519E8FCBE11B2 /* Support Files */,
+				8FBBEDEC380BB40F72A46E5D08279D83 /* UI */,
+			);
+			path = DTRouter;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				68FBF81FAF086A679C0778EE8041E64E /* Development Pods */,
+				1A52B05DB4208BA930ABDE6653A865A3 /* Frameworks */,
+				ACC171215F4D723C6EF4E5FBD93E1ED4 /* Pods */,
+				1A4268A16A61DA3BD8186C1FC8F3F75E /* Products */,
+				1B9773D59C394BE2DE140DB529E8B3E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBBEDEC380BB40F72A46E5D08279D83 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D808ED98376123452885FA66D65E3BB3 /* UIApplication+DTRouter.h */,
+				3A90B060B58EBD80C54D6B77C546C1E0 /* UIApplication+DTRouter.m */,
+				D60C454021FD5A6871996FD981520F84 /* UINavigationController+DTRouter.h */,
+				B1EE6D5EC0A93FACD43DDAE72E55568F /* UINavigationController+DTRouter.m */,
+				4F85E3AB4576BC73748137621CDCAA79 /* UITabBarController+DTRouter.h */,
+				D2667443AFEDE9ECFD5D8792539DA95C /* UITabBarController+DTRouter.m */,
+				D74078B5503149BEC44ED986DC4413BF /* UIViewController+DTRouter.h */,
+				26E567AC140AEB7A3CE3B6A4600F91A7 /* UIViewController+DTRouter.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		ACC171215F4D723C6EF4E5FBD93E1ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CB6425BA78CF6221CE5F36AE198D03E /* DTRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B8AB78A615E8AD0BB96961D69431ADA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F8C265C14AEA3AA4D032759E01ED8E /* DTModuleManager.h in Headers */,
+				4FB24DBB634D8A70D5000E04B4FDD07D /* DTModuleProtocol.h in Headers */,
+				5B687F9CC6F40BED0C3F37EDCBF50064 /* DTRipper-umbrella.h in Headers */,
+				7BA0735A26763E6B0B3FD2318E59D932 /* DTRipper.h in Headers */,
+				A96EA201B03D32BCD54315DB1C931CC1 /* DTRipperAppDelegate.h in Headers */,
+				D29008DEC8A395338CECBDB08EFDADB0 /* DTRipperConstants.h in Headers */,
+				6D351E0649BD067778C77D2BCAC5E69B /* DTRipperContext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF7BB03CB44A9CEF8CF2B2E36A35B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FA546DF1B4B461BBD8D8F5402ABA1E /* DTRouter-umbrella.h in Headers */,
+				BE1D3FA40EE2D9A8C6E438BF9289894B /* DTRouterRequest.h in Headers */,
+				8074E0441A434B07F30B56280E80CE49 /* DTRouterResponse.h in Headers */,
+				96FA574DCC7CE18155C42C36CD3B2BAD /* DTRouterService.h in Headers */,
+				3C192C16B80873EEE178632E7C3EC2DB /* DTURLPattern.h in Headers */,
+				160E73CFA14B9F5D2D1267949FB02072 /* NSError+DTRouter.h in Headers */,
+				DE6BAF743D78B2F71F9D20C2CFC30561 /* UIApplication+DTRouter.h in Headers */,
+				A1FB9E20E6AD2BF005677E298A145F16 /* UINavigationController+DTRouter.h in Headers */,
+				3E6AFFD70C4AB9785AAE4EF527F2551C /* UITabBarController+DTRouter.h in Headers */,
+				3698E9433903C29F5EBCC048A46871B8 /* UIViewController+DTRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7757D82A227A50DAD90C12A46E5809 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ECE9F12D43AEDEB00782C0172678F1 /* Pods-DTRipper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA74BB6CA66D38FC78B05A7AA1E65AC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1311BDB4D72C5AB25A0ED8FBDDC93091 /* Pods-DTRipper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A309D5E0965903CB4CA1C93F1B3C923 /* DTRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F624FD69551F2590092D19D9884D230A /* Build configuration list for PBXNativeTarget "DTRouter" */;
+			buildPhases = (
+				A3BF7BB03CB44A9CEF8CF2B2E36A35B3 /* Headers */,
+				CC2972238913C6EBFA2B4EAB399572A9 /* Sources */,
+				7B2C8968D7B44FF68BA5636696AD46B3 /* Frameworks */,
+				0B5A0B8B420B4A8B72BBA4B68A3FD742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTRouter;
+			productName = DTRouter;
+			productReference = 475D37D575228227C702E7E5C81E1610 /* DTRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7BF8324021C29F5F287C6F529E9CED4 /* DTRipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7ECD0C11C23F1683D5BF04B5DE5026 /* Build configuration list for PBXNativeTarget "DTRipper" */;
+			buildPhases = (
+				3B8AB78A615E8AD0BB96961D69431ADA /* Headers */,
+				99057CBB413FC0B9D71543BD69636772 /* Sources */,
+				D08F8227B44DA2BE12496E8DE80D254D /* Frameworks */,
+				153D02E737BA459115326B11FB74910D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AC5BA02647A35BF6EE4F7454597FEFF /* PBXTargetDependency */,
+			);
+			name = DTRipper;
+			productName = DTRipper;
+			productReference = 22A38BD0AA682C8C0B85A122828A2266 /* DTRipper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA2CFCD128CC680A200DF720E53CDABB /* Pods-DTRipper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50BD4A63AB8AAC81C9D687F2083DE17 /* Build configuration list for PBXNativeTarget "Pods-DTRipper_Tests" */;
+			buildPhases = (
+				DA74BB6CA66D38FC78B05A7AA1E65AC3 /* Headers */,
+				FE41F276B503E68BCD646A9AABEED199 /* Sources */,
+				0D357F67C7AFB1B7CA6B54048026B5E6 /* Frameworks */,
+				2F14EE7FDBA0B7B8D372539B7FA22805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AD5E604187D411F8E0CC6298C518C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTRipper_Tests";
+			productName = "Pods-DTRipper_Tests";
+			productReference = AD0429428F1E73AB9E4BBA272C8BDA30 /* Pods_DTRipper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DACE65D9B086D50C8C7008C225512E08 /* Pods-DTRipper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72F6F9174B292E8F92EB360C85418BD /* Build configuration list for PBXNativeTarget "Pods-DTRipper_Example" */;
+			buildPhases = (
+				BE7757D82A227A50DAD90C12A46E5809 /* Headers */,
+				FFBBF6C652FEF466B61EC3E20F35AE77 /* Sources */,
+				351D38382FE66A9FF97493471F92EDB7 /* Frameworks */,
+				DF7D7DAE37F7B4D0AD440191EDBCF0D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5F072DBCF70DDB8A6CB6352246A408 /* PBXTargetDependency */,
+				A8F231C058CC1025D5390A34D15DACE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTRipper_Example";
+			productName = "Pods-DTRipper_Example";
+			productReference = 7268F37253B30030873C30D0D0539ADC /* Pods_DTRipper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1A4268A16A61DA3BD8186C1FC8F3F75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BF8324021C29F5F287C6F529E9CED4 /* DTRipper */,
+				8A309D5E0965903CB4CA1C93F1B3C923 /* DTRouter */,
+				DACE65D9B086D50C8C7008C225512E08 /* Pods-DTRipper_Example */,
+				AA2CFCD128CC680A200DF720E53CDABB /* Pods-DTRipper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B5A0B8B420B4A8B72BBA4B68A3FD742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153D02E737BA459115326B11FB74910D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F14EE7FDBA0B7B8D372539B7FA22805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7D7DAE37F7B4D0AD440191EDBCF0D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99057CBB413FC0B9D71543BD69636772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F14F266EA4737A88A783496D435D4 /* DTModuleManager.m in Sources */,
+				55871ED5CEFA02CB075237CF60EAEB0D /* DTRipper-dummy.m in Sources */,
+				3C96937DA5FBE1640E2EE04FD64B22FB /* DTRipper.m in Sources */,
+				BBCE9FEB6616DE67D6453A5AFDB21F8D /* DTRipperAppDelegate.m in Sources */,
+				9B2E4BBB2D7CC8F51DC81EDB44BF19B1 /* DTRipperContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2972238913C6EBFA2B4EAB399572A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415AE68D647F2AFF574E5314469A3568 /* DTRouter-dummy.m in Sources */,
+				4027FCEE512508FC97CABA3A92176C13 /* DTRouterRequest.m in Sources */,
+				72E51D63BBEA4925C9E9DBC4799A215D /* DTRouterResponse.m in Sources */,
+				FDCF86BF6B17A4D630D10A71267822EB /* DTRouterService.m in Sources */,
+				E333D9B361A0CBA76CE2BE536257B4A5 /* DTURLPattern.m in Sources */,
+				23ECF8AE93FB4C6B25C1F77678D97E88 /* NSError+DTRouter.m in Sources */,
+				C1112404A0674C13EAE4197FA948B42B /* UIApplication+DTRouter.m in Sources */,
+				36C294B5AEFF123B4B680DCAAD8184DE /* UINavigationController+DTRouter.m in Sources */,
+				1BD5863503EA774757E826AC4AF5C72B /* UITabBarController+DTRouter.m in Sources */,
+				AF959E267AE3C761AE754D0ED58D2E2B /* UIViewController+DTRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE41F276B503E68BCD646A9AABEED199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948E2558C03B893A8A6B76C8AEE47A67 /* Pods-DTRipper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF6C652FEF466B61EC3E20F35AE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C49048E12E1F26F459E4BB714412E8 /* Pods-DTRipper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65AD5E604187D411F8E0CC6298C518C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DTRipper_Example";
+			target = DACE65D9B086D50C8C7008C225512E08 /* Pods-DTRipper_Example */;
+			targetProxy = 21AEB1E42458D899C731CC8908F65855 /* PBXContainerItemProxy */;
+		};
+		8AC5BA02647A35BF6EE4F7454597FEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTRouter;
+			target = 8A309D5E0965903CB4CA1C93F1B3C923 /* DTRouter */;
+			targetProxy = F16350F503C0A6E5AAFC5930F6C55393 /* PBXContainerItemProxy */;
+		};
+		9C5F072DBCF70DDB8A6CB6352246A408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTRipper;
+			target = A7BF8324021C29F5F287C6F529E9CED4 /* DTRipper */;
+			targetProxy = 774FB043EC7F6B628DA5D8C5139A3978 /* PBXContainerItemProxy */;
+		};
+		A8F231C058CC1025D5390A34D15DACE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTRouter;
+			target = 8A309D5E0965903CB4CA1C93F1B3C923 /* DTRouter */;
+			targetProxy = DA2D793540A46D6B8D99E90E9F038A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E36DBB916B7FCF6DAD1B87925E55712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E4B9AD664E8FA32CA30B8A10BDE311 /* Pods-DTRipper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTRipper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTRipper_Example/Pods-DTRipper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EAA02778BBD19CC315E6107F65F8685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0093E24245D11181411CD80F262F5F8 /* DTRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTRouter/DTRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTRouter/DTRouter.modulemap";
+				PRODUCT_MODULE_NAME = DTRouter;
+				PRODUCT_NAME = DTRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C6EACA84DA9A4D8A1E4E2501D3848D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		863772B2ABAD8168A53A718C2CE9875B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B11B212045C74D2A7630AFBC5C5554 /* Pods-DTRipper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTRipper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTRipper_Tests/Pods-DTRipper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96002636878C4093D8D6EFBE55B08F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFC5E6D4EC1AC88D98AF5F09D874529 /* DTRipper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTRipper/DTRipper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTRipper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTRipper/DTRipper.modulemap";
+				PRODUCT_MODULE_NAME = DTRipper;
+				PRODUCT_NAME = DTRipper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6EE6356A41608B3D5DF69D2D10FC7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0093E24245D11181411CD80F262F5F8 /* DTRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTRouter/DTRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTRouter/DTRouter.modulemap";
+				PRODUCT_MODULE_NAME = DTRouter;
+				PRODUCT_NAME = DTRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA186C448DF7DB1973B573C27251BE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F32F94C8AC018D89BF4D99E48828182 /* Pods-DTRipper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTRipper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTRipper_Example/Pods-DTRipper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D090C7163A7A3328FA8890AD9795CD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3070F30E98786D958C5068F8845061EA /* Pods-DTRipper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTRipper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTRipper_Tests/Pods-DTRipper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9B851E8D67D359282551F91AF242887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE8FE2D634BDD256F713F62512FAD320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFC5E6D4EC1AC88D98AF5F09D874529 /* DTRipper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTRipper/DTRipper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTRipper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTRipper/DTRipper.modulemap";
+				PRODUCT_MODULE_NAME = DTRipper;
+				PRODUCT_NAME = DTRipper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6EACA84DA9A4D8A1E4E2501D3848D0 /* Debug */,
+				D9B851E8D67D359282551F91AF242887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7ECD0C11C23F1683D5BF04B5DE5026 /* Build configuration list for PBXNativeTarget "DTRipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8FE2D634BDD256F713F62512FAD320 /* Debug */,
+				96002636878C4093D8D6EFBE55B08F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50BD4A63AB8AAC81C9D687F2083DE17 /* Build configuration list for PBXNativeTarget "Pods-DTRipper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C7163A7A3328FA8890AD9795CD51 /* Debug */,
+				863772B2ABAD8168A53A718C2CE9875B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72F6F9174B292E8F92EB360C85418BD /* Build configuration list for PBXNativeTarget "Pods-DTRipper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E36DBB916B7FCF6DAD1B87925E55712 /* Debug */,
+				CA186C448DF7DB1973B573C27251BE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F624FD69551F2590092D19D9884D230A /* Build configuration list for PBXNativeTarget "DTRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE6356A41608B3D5DF69D2D10FC7EE /* Debug */,
+				4EAA02778BBD19CC315E6107F65F8685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+workspace 'DTRipper'
+
+target 'DTRipper_Example' do
+  pod 'DTRipper', :path => '../'
+
+  target 'DTRipper_Tests' do
+    inherit! :search_paths
+    
+
+  end
+end

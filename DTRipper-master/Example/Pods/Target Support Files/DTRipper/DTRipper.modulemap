@@ -1,0 +1,6 @@
+framework module DTRipper {
+  umbrella header "DTRipper-umbrella.h"
+
+  export *
+  module * { export * }
+}

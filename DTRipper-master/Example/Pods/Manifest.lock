@@ -1,0 +1,28 @@
+PODS:
+  - DTRipper (0.0.3):
+    - DTRouter
+  - DTRouter (1.0.1):
+    - DTRouter/Core (= 1.0.1)
+    - DTRouter/UI (= 1.0.1)
+  - DTRouter/Core (1.0.1)
+  - DTRouter/UI (1.0.1):
+    - DTRouter/Core
+
+DEPENDENCIES:
+  - DTRipper (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DTRouter
+
+EXTERNAL SOURCES:
+  DTRipper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DTRipper: 4b3fa4b668f0229d68e436b107ffc0e3a653bb7e
+  DTRouter: b4e58429b1b0ef0998f257b1e5df23ae51044a75
+
+PODFILE CHECKSUM: a04deaf8b1fb03312b02777ab3c4891b7ddbab61
+
+COCOAPODS: 1.5.3
