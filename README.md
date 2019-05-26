@@ -6,7 +6,9 @@ BeeHive是用于iOS的App模块化编程的框架实现方案，吸收了Spring�
 给每个模块提供生命周期事件
 BeeHive会给每个模块提供生命周期事件，用于与BeeHive宿主环境进行必要信息交互，感知模块生命周期的变化。
 
+
 # [mPaas](https://tech.antfin.com/docs/2/49549)
+
 支付宝现行架构 
 更强大模块化与解耦方式式，微应用和微服务思想 
 
